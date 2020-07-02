@@ -12,6 +12,7 @@
 <br/>How db search works, how to improve perfomance of search.
 <br/>
 <code>
+  <pre>
 function foo() {
   setTimeout(()=> {
       throw new Error('Err')
@@ -23,4 +24,5 @@ try {
 } catch (error) {
   console.error('error catch');
 }
+</pre>
 </code>
