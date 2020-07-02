@@ -23,7 +23,7 @@ function foo() {
 try {
   foo();
 } catch (error) {
-  console.error('error catch');
+  console.error('will it be fired');
 }
 </pre>
 
