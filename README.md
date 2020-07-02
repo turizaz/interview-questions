@@ -45,5 +45,21 @@ for (let i = 0; i<8; i++ ) {
 }
 </pre>
 
-
-fibonacci
+fibonacci - on this example we can discuss on recursion downsides and how it can be circumvented
+1,1,2,3,5,8,13
+<pre>
+function fibOptimized(index) {
+  const memoriationArray = [];
+  function fib(index) {
+    if(index < 3) {
+      return 1;
+    }
+    if(arr[index]) {
+      return arr[index];
+    }
+    arr[index] = fib(index - 1) + fib(index - 2);
+    return arr[index]
+  }
+  return fib(index)
+}
+</pre>
