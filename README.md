@@ -29,6 +29,7 @@ try {
 
 <br/>Not so singlethreaded
 <pre>
+// process.env.UV_THREADPOOL_SIZE=8
 const crypto = require('crypto');
 const util = require('util');
 const start = process.hrtime();
