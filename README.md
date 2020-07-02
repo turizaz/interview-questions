@@ -54,11 +54,11 @@ function fibOptimized(index) {
     if(index < 3) {
       return 1;
     }
-    if(arr[index]) {
-      return arr[index];
+    if(memoriationArray[index]) {
+      return memoriationArray[index];
     }
-    arr[index] = fib(index - 1) + fib(index - 2);
-    return arr[index]
+    memoriationArray[index] = fib(index - 1) + fib(index - 2);
+    return memoriationArray[index]
   }
   return fib(index)
 }
