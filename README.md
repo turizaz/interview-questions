@@ -25,6 +25,7 @@ try {
 </pre>
 
 <br/>Not so singlethreaded
+<pre>
 const crypto = require('crypto');
 const util = require('util');
 const start = process.hrtime();
@@ -38,3 +39,4 @@ for (let i = 0; i<8; i++ ) {
     ))
   })
 }
+</pre>
