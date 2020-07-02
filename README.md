@@ -10,3 +10,15 @@
 <br/>What pattern of perfomance optimization do you know.
 <br/>We created social network for 1 million users will be enought 4 sign hash as id for each user to maintain it, (26 letters of english alphabet plus 9 digits) 35 sign ?
 <br/>How db search works, how to improve perfomance of search.
+<br/>
+function foo() {
+  setTimeout(()=> {
+      throw new Error('Err')
+  },0)
+}
+
+try {
+  foo();
+} catch (error) {
+  console.error('error catch');
+}
