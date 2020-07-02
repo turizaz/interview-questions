@@ -26,8 +26,7 @@ try {
   console.error('will it be fired');
 }
 </pre>
-
-<br/>Not so singlethreaded
+Not so singlethreaded
 <pre>
 // process.env.UV_THREADPOOL_SIZE=8
 const crypto = require('crypto');
