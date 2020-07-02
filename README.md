@@ -1,6 +1,8 @@
 # interview-questions
 
-<br/>What is node.js
+<ul>
+  <li>What is node.js</li>
+  </ul>
 <br/>What principes do you following while writing scripts.
 <br/>In your opinion which code we can call clean.
 <br/>What is algorithm complexity, do you know what complexity of search will be in sorted list, unsorted list.
