@@ -18,6 +18,12 @@
 <li>How db search works, how to improve perfomance of search.
 <li>What mehanizm authentiacation do you know
   <li>
+    <pre>
+    const base = 3;
+    const arr = [1,3,3,4,1,23,5,6,7,5];
+    </pre>
+    find all indexes wich in sum will give 8
+  <li>
     What will be first ?
     <pre>
     setTimeout(()=> {console.log('timeout'), 0})
