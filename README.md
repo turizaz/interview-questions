@@ -6,6 +6,7 @@
 <li>How block thread in Node.js
 <li>What mechanisms on scalability do you know, what mechanisms on scalability node.js offer ?
 <li>When allowed use sync methods like readFileSync ?
+<li>What is pure functions, what advanages of pure functions
 <li>What principes do you following while writing scripts.
 <li>In your opinion which code we can call clean.
 <li>What is algorithm complexity, do you know what complexity of search will be in sorted list, unsorted list.
