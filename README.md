@@ -44,7 +44,7 @@ for (let i = 0; i<8; i++ ) {
 }
 </pre>
 
-Fibonacci - on this example we can discuss on recursion downsides and how it can be circumvented
+Fibonacci - on this example we can discuss on recursion downsides and how it can be circumvented via memorization
 1,1,2,3,5,8,13
 <pre>
 function fibOptimized(index) {
