@@ -18,6 +18,11 @@
 <li>How db search works, how to improve perfomance of search.
 <li>What mehanizm authentiacation do you know
   <li>
+    What will be first ?
+    <pre>
+    setTimeout(()=> {console.log('timeout'), 0})
+    console.log('logging')
+    </pre>
 <pre>
 function foo() {
   setTimeout(()=> {
