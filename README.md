@@ -31,7 +31,7 @@ try {
 </pre>
   <li>
 On this example we can see that node.js not so singlethreaded. Operations with fs and crypto is multithreaded
-<pre>
+<pre><code>
 // process.env.UV_THREADPOOL_SIZE=8
 const crypto = require('crypto');
 const util = require('util');
@@ -46,7 +46,7 @@ for (let i = 0; i<8; i++ ) {
     ))
   })
 }
-</pre>
+</code></pre>
   <li>
 Fibonacci - on this example we can discuss on recursion downsides and how it can be circumvented via memorization
 1,1,2,3,5,8,13
