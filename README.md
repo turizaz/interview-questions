@@ -4,6 +4,7 @@
 <li>What is node.js
 <li>How node js works
 <li>How block thread in Node.js
+<li>What mechanisms on scalability do you know, what mechanisms on scalability node.js offer ?
 <li>When allowed use sync methods like readFileSync ?
 <li>What principes do you following while writing scripts.
 <li>In your opinion which code we can call clean.
