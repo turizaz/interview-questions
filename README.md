@@ -32,7 +32,7 @@ try {
 }
 </pre>
   <li>
-On this example we can see that node.js not so singlethreaded. Operations with fs and crypto is multithreaded
+On this example we can see that node.js not so singlethreaded. Operations with fs and crypto are multithreaded
 <pre><code>
 // process.env.UV_THREADPOOL_SIZE=8
 const crypto = require('crypto');
