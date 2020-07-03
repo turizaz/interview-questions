@@ -15,7 +15,7 @@
 <li>We created social network for 1 million users will be enought 4 sign hash as id for each user to maintain it, (26 letters of english alphabet plus 9 digits) 35 sign ?
 <li>How db search works, how to improve perfomance of search.
 <li>What mehanizm authentiacation do you know
-  </ul>
+  <li>
 <pre>
 function foo() {
   setTimeout(()=> {
@@ -29,7 +29,8 @@ try {
   console.error('will it be fired');
 }
 </pre>
-Not so singlethreaded
+  <li>
+On this example we can see that node.js not so singlethreaded. Operations with fs and crypto is multithreaded
 <pre>
 // process.env.UV_THREADPOOL_SIZE=8
 const crypto = require('crypto');
@@ -46,7 +47,7 @@ for (let i = 0; i<8; i++ ) {
   })
 }
 </pre>
-
+  <li>
 Fibonacci - on this example we can discuss on recursion downsides and how it can be circumvented via memorization
 1,1,2,3,5,8,13
 <pre>
@@ -65,3 +66,4 @@ function fibOptimized(index) {
   return fib(index)
 }
 </pre>
+ </ul>
