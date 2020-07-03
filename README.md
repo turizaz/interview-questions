@@ -4,6 +4,7 @@
 <li>What is node.js
 <li>How node js works
 <li>How block thread in Node.js
+<li>When allowed use sync methods like readFileSync ?
 <li>What principes do you following while writing scripts.
 <li>In your opinion which code we can call clean.
 <li>What is algorithm complexity, do you know what complexity of search will be in sorted list, unsorted list.
