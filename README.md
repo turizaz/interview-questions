@@ -9,7 +9,7 @@
 <li>What is pure functions, what advanages of pure functions
 <li>What principes do you following while writing scripts.
 <li>In your opinion which code we can call clean.
-<li>What is algorithm complexity, do you know what complexity of search will be in sorted list, unsorted list.
+<li>What is algorithm complexity, do you know. What complexity of search will be in sorted list, unsorted list.
 <li>What type of data structure do you know, what type of data structure do you know in js
 <li>We have function with callback, how we can rewrite in to promise ?
 <li>We have list of urls, how we can fetch all of them simuntaniously.
