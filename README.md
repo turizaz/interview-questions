@@ -39,7 +39,7 @@
   </li>
   <li>
     <pre>
-  Rewrite to primse
+  realization of rewrite to promise
   function httpViaPromise(options) {
       return new Promise((res, rej) => {
         http.request(options, (response) => {
@@ -59,6 +59,7 @@
     </pre>
   </li>
   <li>
+    Call multiple http at once
     <pre>
     const list = [
       {
