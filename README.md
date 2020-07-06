@@ -39,10 +39,10 @@
   </li>
   <li>
     <pre>
-    const base = 3;
-    const arr = [1,3,3,4,1,23,5,6,7,5];
+    const base = 8;
+    const arr = [7,4,8,4,5]; => [[0,4],[1,2],[2,3]]
     </pre>
-    find all indexes wich in sum will give 8
+    find  indexes wich in sum will give 12
   <li>
     What will be first ?
     <pre>
