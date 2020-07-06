@@ -11,8 +11,6 @@
 <li>In your opinion which code we can call clean.
 <li>What is algorithm complexity, do you know. What complexity of search will be in sorted list, unsorted list.
 <li>What type of data structure do you know, what type of data structure do you know in js
-<li>We have function with callback, how we can rewrite in to promise ?
-<li>We have list of urls, how we can fetch all of them simuntaniously.
 <li>What pattern of perfomance optimization do you know.
 <li>We created social network for 1 million users will be enought 4 sign hash as id for each user to maintain it, (26 letters of english alphabet plus 9 digits) 35 sign ?
 <li>How db search works, how to improve perfomance of search.
