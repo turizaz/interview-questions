@@ -38,6 +38,42 @@
     </pre>
   </li>
   <li>
+  Rewrite to primse
+  function httpViaPromise(options) {
+      return new Promise((res, rej) => {
+        http.request(options, (response) => {
+            let str = '';
+            response.on('data', (chunk) => {
+              str += chunk;
+            });
+            response.on('error',  (err) => {
+              return rej(err);
+            });
+            response.on('end', () => {
+              return res(str);
+            });
+          }).end();
+      })
+    }
+  </li>
+  <li>
+    <pre>
+    const list = [
+      {
+        host: 'www.random.org',
+        path: '/integers/?num=1&min=1&max=10&col=1&base=10&format=plain&rnd=new'
+      },
+      {
+        host: 'www.3random.org',
+        path: '/integers/?num=1&min=1&max=10&col=1&base=10&format=plain&rnd=new'
+      }
+    ];
+     Promise.all(list.map(it => {
+      return httpViaPromise(it);
+    })).then(console.log);
+    </pre>
+  </li>
+  <li>
     <pre>
     const base = 8;
     const arr = [7,4,8,4,5]; => [[0,4],[1,2],[2,3]]
