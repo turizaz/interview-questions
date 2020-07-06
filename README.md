@@ -38,6 +38,7 @@
     </pre>
   </li>
   <li>
+    <pre>
   Rewrite to primse
   function httpViaPromise(options) {
       return new Promise((res, rej) => {
@@ -55,6 +56,7 @@
           }).end();
       })
     }
+    </pre>
   </li>
   <li>
     <pre>
