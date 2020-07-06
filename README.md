@@ -8,6 +8,7 @@
 <li>When allowed use sync methods like readFileSync ?
 <li>What is pure functions, what advanages of pure functions
 <li>What principes do you following while writing scripts.
+<li>What is js context
 <li>In your opinion which code we can call clean.
 <li>What is algorithm complexity, do you know. What complexity of search will be in sorted list, unsorted list.
 <li>What type of data structure do you know, what type of data structure do you know in js
