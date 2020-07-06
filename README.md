@@ -19,6 +19,25 @@
 <li>What mehanizm authentiacation do you know
   <li>Why do we need tests, what type of tesing do you know. What is unit testing. What pattern of writting code helps us in testing and what makes testing mode difficult
   <li>
+    Rewrite to promise
+    <pre>
+    const http = require('https');
+    const options = {
+      host: 'www.random.org',
+      path: '/integers/?num=1&min=1&max=10&col=1&base=10&format=plain&rnd=new'
+    };
+    http.request(options, function(response) {
+      let str = '';
+      response.on('data', function (chunk) {
+        str += chunk;
+      });
+      response.on('end', function () {
+       console.log(str);
+      });
+    }).end();
+    </pre>
+  </li>
+  <li>
     <pre>
     const base = 3;
     const arr = [1,3,3,4,1,23,5,6,7,5];
